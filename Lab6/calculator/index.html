@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+
+    <script src="calculator.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="m-6">
+    <div>
+        <input
+        type="number"
+        class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none w-[20%]"
+        id="number1"
+        placeholder="Write the first number"
+      /> +/-
+
+      <input
+      type="number"
+      class="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none w-[20%]"
+      id="number2"
+      placeholder="Write the second number"
+    /> = 
+    <button id="add" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+        Add
+    </button>
+    <button  id="subtract" class="inline-flex items-center px-4 py-2 bg-gray-200 hover:bg-gray-300 text-gray-800 text-sm font-medium rounded-md">
+        subtract
+    </button>
+    
+     <input
+      type="number"
+      id="result"
+      class="border-2 border-gray-300 bg-white h-10 px-5 rounded-lg text-sm focus:outline-none w-[20%] "
+      placeholder="Output is"
+    /> 
+    
+    </div>
+
+   
+  </div>
+  </body>
+</html>
