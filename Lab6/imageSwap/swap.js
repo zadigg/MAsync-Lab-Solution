@@ -1,5 +1,3 @@
-"use strict";
-
 window.onload = function () {
   document.getElementById("btn1").onclick = swapImage;
 };
